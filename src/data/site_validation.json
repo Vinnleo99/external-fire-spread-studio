@@ -1,0 +1,57 @@
+{
+  "parallel against corner formula": {
+    "n": 2000,
+    "worstAbs": 3.3306690738754696e-16,
+    "worstRel": 1.1058132209725411e-10
+  },
+  "perpendicular against BR 187 equation A5": {
+    "n": 500,
+    "worstAbs": 5.551115123125783e-17,
+    "worstRel": 1.6043476668317123e-13
+  },
+  "oblique against numerical integration": {
+    "n": 150,
+    "worstAbs": 7.941243381770491e-7,
+    "worstRel": 0.0001294688897736314
+  },
+  "required distance against previous engine": {
+    "n": 4,
+    "worstAbs": 1.4063386011287093e-8,
+    "worstRel": 2.0854738042228673e-9
+  },
+  "required distance against Python reference": {
+    "n": 4,
+    "worstAbs": 1.967099727551158e-8,
+    "worstRel": 2.9170321921984883e-9
+  },
+  "enclosing rectangle against Python reference": {
+    "n": 80,
+    "worstAbs": 1.989231179777562e-7,
+    "worstRel": 1.7626890968890595e-8
+  },
+  "office example peak at 3.5 metres against previous engine": {
+    "n": 1,
+    "worstAbs": 1.0803020700222987e-9,
+    "worstRel": 6.48839937373966e-11
+  },
+  "office example required distance against previous engine": {
+    "n": 1,
+    "worstAbs": 6.047100598038924e-10,
+    "worstRel": 1.4168932085791867e-10
+  },
+  "receiver on boundary against twice the mirror distance": {
+    "n": 1,
+    "worstAbs": 7.612417363134227e-10,
+    "worstRel": 8.918309102270272e-11
+  },
+  "stepped building receiver against numerical integration": {
+    "n": 3,
+    "worstAbs": 1.7763568394002505e-14,
+    "worstRel": 1.889686504253771e-15
+  },
+  "rotation invariance (peak)": {
+    "n": 3,
+    "worstAbs": 1.4210854715202004e-14,
+    "worstRel": 3.890132027098089e-15
+  }
+}

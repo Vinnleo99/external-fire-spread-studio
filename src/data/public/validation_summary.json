@@ -1,0 +1,60 @@
+{
+ "finite_widths": {
+  "count": 2556,
+  "mean_difference_m": 0.024582394366197184,
+  "mean_absolute_difference_m": 0.16805946791862286,
+  "largest_absolute_difference_m": 1.3885000000000005,
+  "largest_difference_case": {
+   "height_m": 24.0,
+   "width_m": 120.0,
+   "unprotected_percentage": 70,
+   "source_intensity_kW_per_m2": 84.0
+  },
+  "share_within_0_25_m": 0.7981220657276995,
+  "share_within_0_5_m": 0.9827856025039123,
+  "share_within_1_0_m": 0.9992175273865415,
+  "share_exact_after_rounding_engine_to_half_metre": 0.8067292644757433,
+  "share_table_at_or_above_engine": 0.5500782472613458,
+  "median_relative_difference": 0.0031676954159311687
+ },
+ "no_limit_rows_width_140_m": {
+  "count": 162,
+  "mean_difference_m": -0.04453765432098765,
+  "mean_absolute_difference_m": 0.2964080246913581,
+  "largest_absolute_difference_m": 1.2661999999999978,
+  "largest_difference_case": {
+   "height_m": 27.0,
+   "width_m": "no limit",
+   "unprotected_percentage": 100,
+   "source_intensity_kW_per_m2": 168.0
+  },
+  "share_within_0_25_m": 0.5864197530864198,
+  "share_within_0_5_m": 0.7839506172839507,
+  "share_within_1_0_m": 0.9876543209876543,
+  "share_exact_after_rounding_engine_to_half_metre": 0.5925925925925926,
+  "share_table_at_or_above_engine": 0.5493827160493827,
+  "median_relative_difference": 0.0029596772362215644
+ },
+ "all_rows": {
+  "count": 2718,
+  "mean_difference_m": 0.020462656364974244,
+  "mean_absolute_difference_m": 0.17570938189845475,
+  "largest_absolute_difference_m": 1.3885000000000005,
+  "largest_difference_case": {
+   "height_m": 24.0,
+   "width_m": 120.0,
+   "unprotected_percentage": 70,
+   "source_intensity_kW_per_m2": 84.0
+  },
+  "share_within_0_25_m": 0.7855040470934511,
+  "share_within_0_5_m": 0.97093451066961,
+  "share_within_1_0_m": 0.9985283296541575,
+  "share_exact_after_rounding_engine_to_half_metre": 0.7939661515820456,
+  "share_table_at_or_above_engine": 0.5500367917586461,
+  "median_relative_difference": 0.0031343549654886697
+ },
+ "table_symmetry": {
+  "pairs_checked": 648,
+  "mismatches": 2
+ }
+}

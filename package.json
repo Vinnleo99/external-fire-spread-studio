@@ -1,0 +1,25 @@
+{
+  "name": "external-fire-spread-studio",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/prepare-public-data.mjs && EFS_PUBLIC=1 vite",
+    "build": "node scripts/prepare-public-data.mjs && EFS_PUBLIC=1 tsc --noEmit && EFS_PUBLIC=1 vite build --outDir dist --emptyOutDir",
+    "build:pages": "npm run build && rm -rf docs && cp -r dist docs && touch docs/.nojekyll",
+    "check:ipad": "node scripts/ipad-check.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@types/node": "^26.6.4",
+    "@types/three": "^0.186.0",
+    "playwright": "^1.64.0",
+    "typescript": "^7.0.2",
+    "vite": "^5.4.21",
+    "vite-plugin-singlefile": "^2.3.3"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "license": "UNLICENSED"
+}

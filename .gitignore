@@ -1,0 +1,10 @@
+node_modules/
+dist/
+screenshots/
+*.log
+.DS_Store
+# Licensed data that must never be published (BR 187 1991 Table 1 is Crown copyright).
+src/data/br187_1991_table1.json
+src/data/validation_summary.json
+sources/
+*.pdf
